@@ -24,3 +24,16 @@ head(nba, 1)
 #0	Quincy	Acy		SF		23 		TOT
 # [output truncated]
 
+#Find the average of each statistic
+#average value of each statistic. The columns contain information about the season statistics for the player
+
+#we're applying a function across the dataframe columns.
+#taking the mean of string values will just result in NA -- not available.
+
+sapply(nba, mean, na.rm=TRUE)
+
+#player NA
+#pos NA
+#age 26.50935555093555
+#bref_team_id NA
+#[output truncated]

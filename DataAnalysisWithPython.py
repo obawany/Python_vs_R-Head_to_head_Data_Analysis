@@ -27,4 +27,15 @@ nba.head(1)
 # [output truncated]
 
 #Find the average of each statistic
+#average value of each statistic. The columns contain information about the season statistics for the player
+
+#we're applying a function across the dataframe columns.
+#the mean method on dataframes will find the mean of each column by default.
+
+nba.mean()
+
+#age             26.509356
+#g               53.253638
+#gs              25.571726
+#[output truncated]
 
