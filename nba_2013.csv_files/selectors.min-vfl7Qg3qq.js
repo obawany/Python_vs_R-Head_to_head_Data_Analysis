@@ -1,0 +1,2 @@
+define(["require","exports","modules/clean/video_annotations_prototype/store/reducer"],function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.getVideoAnnotationState=function(e){return e[n.VIDEO_ANNOTATION_REDUCER_KEY]},t.getComments=function(e){return t.getVideoAnnotationState(e).comments||[]}});
+//# sourceMappingURL=selectors.min.js-vflVqy63Z.map
